@@ -7,6 +7,10 @@ execute:
   cache: false
   options:
     repos: "https://cran.r-project.org"
+    project:
+  type: website
+  output-dir: docs  # This makes sure the output goes into the docs folder
+
 ---
 
 
