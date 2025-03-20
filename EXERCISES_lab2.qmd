@@ -1,16 +1,16 @@
 ---
+project:
+  type: website
+  output-dir: docs
+
 title: "Lab 2"
 author: "Kelbi Hall"
-format: html
+format: 
+  html: 
+    toc: true  
 execute:
   echo: true
   cache: false
-  options:
-    repos: "https://cran.r-project.org"
-    project:
-  type: website
-  output-dir: docs  # This makes sure the output goes into the docs folder
-
 ---
 
 
